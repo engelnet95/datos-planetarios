@@ -9,7 +9,7 @@ const planetas = {
         rotacion:"58 días 15.5 horas",
         descubrimiento: "Antigüedad",
         composicion: "Núcleo de hierro, manto rocoso y una corteza delgada.",
-        img: "JPLNASAimages/realplanetsimages/mercury_3.png"
+        img: "mercury_3.png"
     },
 
     venus: {
@@ -22,7 +22,7 @@ const planetas = {
         rotacion:"243 dias",
         descubrimiento: "Antigüedad",
         composicion: "Núcleo de hierro y níquel, manto rocoso, corteza sólida y una atmósfera densa de Co2.",
-        img: "JPLNASAimages/realplanetsimages/Venus_1_NASA's Mariner 10 spacecraft.jpg"
+        img: "Venus_1_NASA's Mariner 10 spacecraft.jpg"
 
     },
     tierra: {
@@ -35,7 +35,7 @@ const planetas = {
         rotacion:"23.9 horas (1 dia)",
         descubrimiento: "Antigüedad",
         composicion: "Núcleo de hierro y níquel, manto rocoso, corteza de silicatos y agua superficial.",
-        img: "JPLNASAimages/realplanetsimages/tierra_1.jpeg"
+        img: "tierra_1.jpeg"
      },
      marte: {
         palabras:["marte", "Marte"],
@@ -47,7 +47,7 @@ const planetas = {
         rotacion:"24.6 horas (1 dia y 0.6 horas",
         descubrimiento: "Antigüedad",
         composicion: "Núcleo de hierro, manto rocoso y una corteza de silicatos con hielo en los polos.",
-        img: "JPLNASAimages/realplanetsimages/mars_1.png"
+        img: "mars_1.png"
     
     },
     jupiter: {
@@ -60,7 +60,7 @@ const planetas = {
         rotacion:"9.93 horas",
         descubrimiento: "Antigüedad",
         composicion: "Hidrógeno metálico liquido y una atmósfera exterior de hidrógeno y helio.",
-        img: "JPLNASAimages/realplanetsimages/jupiter_2.jpg"
+        img: "jupiter_2.jpg"
     },
 
     saturno: {
@@ -73,7 +73,7 @@ const planetas = {
         rotacion:"10.7 horas",
         descubrimiento: "Antigüedad",
         composicion: "Hidrógeno metálico líquido, y una atmósfera exterior de hidrógeno y helio.",
-        img: "JPLNASAimages/realplanetsimages/saturn_1.png"
+        img: "saturn_1.png"
     
     },
     urano: {
@@ -86,7 +86,7 @@ const planetas = {
         rotacion:"17.24 horas",
         descubrimiento: "13 de Marzo de 1781 por el astrónomo alemán William Herschel",
         composicion: "Núcleo pequeño y rocoso, un manto grande de hielo (agua, amoníaco y metano), y una atmósfera de hidrógeno y helio.",
-        img: "JPLNASAimages/realplanetsimages/uranus_2.jpg"
+        img: "uranus_2.jpg"
     
     },
 
@@ -100,7 +100,7 @@ const planetas = {
         rotacion:"16.11 horas",
         descubrimiento: "23 de Septiembre de 1846 por los astronomos Urbain Le Verrier y Johann Galle",
         composicion: "Núcleo rocoso, manto de hielo, y una atmósfera dinámica de hidrógeno y helio.",
-        img: "JPLNASAimages/realplanetsimages/neptune_1.png"
+        img: "neptune_1.png"
     
     }
 };
@@ -137,4 +137,5 @@ document.getElementById("p-composicion").textContent = planetaEncontrado.composi
 document.getElementById("p-img").src = planetaEncontrado.img;
 
 document.getElementById("planet-info").style.display = "flex";
+
 }
